@@ -1,0 +1,86 @@
+﻿<html>
+<head>
+<link rel="stylesheet" href="style.css"/>
+<title>Земя</title>
+  <link rel="icon" type="Earth" href="earth_1_copy.jpg">
+</head>
+<body>
+<div class="dropdown">
+<button class="dropbtn">Части на слънчевата система </button>
+<div class="dropdown-content">
+<a href="index.html">Слънчева система</a>
+<a href="Sun.html">Слънце</a>
+<a href="Mercury.html">Меркурий</a>
+<a href="Venus.html">Венера</a>
+<a>Земята</a>
+<a href="Mars.html">Марс</a>
+<a href="Jupiter.html">Юпитер</a>
+<a href="Saturn.html">Сатурн</a>
+<a href="Uranus.html">Уран</a>
+<a href="Neptune.html">Нептун</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Астероидни пояси </button>
+<div class="dropdown-content">
+<a href="Asteroid belt.html">Астероиден пояс</a>
+<a href="Kiper belt.html">Пояс на Кайпер</a>
+<a href="Oort cloud.html">Пояс на Оорт</a>
+</div>
+</div>
+<a href="Earth moon.html" class="button button1">Луната</a>  <!-- тук е начина за линкване на страниците-->
+<h1 class="text" id="zaglavie">Земя</h1>
+<p>Земята е третата планета в Слънчевата система. Тя е най-голямата от земеподобните планети и единствената, на която според съвременните научни схващания има живот. Земята се е образувала преди около 4,54 милиарда години и скоро след това е придобила единствения си естествен спътник – Луната.</p>
+<p>Външната обвивка на Земята се състои от няколко твърди участъка, наречени тектонски плочи. Те извършват бавни движения, които оказват забележимо влияние след милиони години.
+Около 71% от повърхността на Земята е покрита от соленоводни океани, а останалото са континентите, островите, реките и езерата. Сред планетите на Слънчевата система единствено Земята притежава течна вода. Вътрешността на Земята остава активна, с тънък слой земна мантия, течно външно ядро, пораждащо магнитно поле и твърдо вътрешно ядро.</p> 
+<p>Според най-разпространената и широко приета теория Земята се е образувала преди четири и половина милиарда години заедно с другите планети от Слънчевата система, която преди това е представлявала газово-прахов облак. Няколко милиона години след формирането си Земята се е сблъскала с една малка протопланета – Тея. Този гигантски сблъсък е създал Луната – единствения естествен спътник на Земята. Отначало гореща и течна, повърхността на Земята постепенно се е охладила. Водата най-вероятно е била пренесена от многобройни метеорити и комети. В тази първична водна среда са се зародили органични молекули и едноклетъчни организми.</p>
+<p><a href="https://solarsystem.nasa.gov/planets/earth/overview/" target="_blank" class="button button1">Още информация за Земята</a></p>
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "earth_1_copy.jpg"
+  } else {
+    pic = "image-instruments-Earth-satellite-NASA-Suomi-National-2012.jpg"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="earth_1_copy.jpg" width="700" height="700">
+
+<p>
+<button type="button" onclick="light(1)" class="button button1">Назад</button>
+<button type="button" onclick="light(0)" class="button button1">Напред</button>
+</p>
+<p> Ето някои данни за Земята.</p>
+<table class="center">
+<tbody>
+<tr>
+<td>Отдалеченост от Слънцето</td>
+<td> 149 598 262 км.</td>
+</tr>
+<tr>
+<td>Екваториален диаметър</td>
+<td>12 750 км.</td>
+</tr>
+<tr>
+<td>Плътност спряма водата</td>
+<td>5,51 пъти</td>
+</tr>
+<tr>
+<td>Средна температура на повърхността</td>
+<td>15°C </td>
+</tr>
+<tr>
+<td>Известни луни</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+
+
+</body>
+</html>
+
+

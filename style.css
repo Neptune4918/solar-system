@@ -1,0 +1,107 @@
+p, h1, h2, tr{
+text-align:center;
+  color:white;
+  font-size: 1.5em;
+}
+#zaglavie{
+font-size: 3em;	
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a{
+	text-decoration: none;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; 
+}
+
+.button1 {
+  background-color: transparent; 
+  color: white; 
+  border: 2px solid #4B0082;
+
+}
+
+.button1:hover {
+ background-image: linear-gradient(to bottom right, #0098ba, #4B0082);
+  color: white;
+}
+body {
+  background-image: url('https://images.theconversation.com/files/420897/original/file-20210913-23828-1xbipdi.png?ixlib=rb-1.1.0&q=45&auto=format&w=754&h=667&fit=crop&dpr=1');
+}
+table, th, td {
+  border: 1px solid white;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+img{
+	border: 2px solid white;
+}
+.dropbtn {
+background-color: #4B0082;
+border: none;
+color: white;
+padding: 16px;
+font-size: 16px;
+cursor: pointer;
+}
+
+
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+width: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+
+
+.dropdown:hover .dropbtn {
+background-color: #390063;
+}
+
+.anketa{
+  margin-left: auto;
+  margin-right: auto;
+}
